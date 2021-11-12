@@ -19,7 +19,7 @@ char	*ft_subline(char **rem, char **line)
 
 	len = 0;
 	new_rem = NULL;
-	while((*rem)[len] != '\n' && (*rem)[len])
+	while ((*rem)[len] != '\n' && (*rem)[len])
 		++len;
 	if ((*rem)[len] == '\n')
 	{
